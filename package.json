@@ -1,0 +1,21 @@
+{
+  "name": "twitter-bot",
+  "version": "1.0.0",
+  "description": "simple twitter bot example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Brett Macy <bam03584@aol.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0",
+    "socket.io": "^1.4.8",
+    "twit": "^2.2.4"
+  },
+  "devDependencies": {
+    "bot": "0.0.3",
+    "debug": "^2.2.0"
+  }
+}
